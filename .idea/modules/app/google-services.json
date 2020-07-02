@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "247456718802",
+    "firebase_url": "https://smartorium-bc7e9.firebaseio.com",
+    "project_id": "smartorium-bc7e9",
+    "storage_bucket": "smartorium-bc7e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247456718802:android:1242c1e9d22b4bdafff20b",
+        "android_client_info": {
+          "package_name": "org.iot.smartorium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247456718802-46qqrmfsatk6556jcjq4n61ga9uf87te.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.iot.smartorium",
+            "certificate_hash": "a5a9a4c7a1266a91540a07122f0357138fb1bc0f"
+          }
+        },
+        {
+          "client_id": "247456718802-bjpg9lb4d84gi16v49farpr1k3nm1qg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6b1jBf2hMXtPdCEyfahrQTGkpQ3V18zI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247456718802-bjpg9lb4d84gi16v49farpr1k3nm1qg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
