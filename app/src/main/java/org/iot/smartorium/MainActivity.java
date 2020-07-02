@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.firebase.client.Firebase;
@@ -18,6 +20,7 @@ import com.google.firebase.database.ValueEventListener;
 public class MainActivity extends AppCompatActivity {
 
     private TextView light, temp, humid, water;
+    private Button exit;
     DatabaseReference reference;
 
     @Override
@@ -29,6 +32,15 @@ public class MainActivity extends AppCompatActivity {
         temp = findViewById(R.id.tempResult);
         humid = findViewById(R.id.humResult);
         water = findViewById(R.id.waterResult);
+
+        exit = findViewById(R.id.btnExit);
+        exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+                System.exit(0);
+            }
+        });
 
         reference = FirebaseDatabase.getInstance().getReference();
 
