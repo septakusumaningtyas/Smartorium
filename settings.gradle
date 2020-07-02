@@ -1,0 +1,3 @@
+rootProject.name='Smartorium'
+include ':app'
+startParameter.offline=false
